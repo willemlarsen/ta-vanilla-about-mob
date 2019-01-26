@@ -1,0 +1,54 @@
+* {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+
+body {
+  background-color: rgb(224, 237, 241);
+}
+
+header {
+  background-color: black;
+}
+
+h1 {
+  color: #f5f5e4;
+  padding: 20px;
+}
+
+h2 {
+  padding: 40px;
+}
+
+#polaroid-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 60px;
+}
+
+.polaroids {
+  padding: 10px;
+  margin: 10px;
+  background-color: #f5f5e4;
+  box-shadow: 0 0.25em 1em rgba(0,0,0,0.2);
+}
+
+span {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+img {
+  max-width: 350px;
+}
+
+#willem-polaroid {
+  box-shadow:0 0.25em 1em rgba(8, 179, 59, 0.662)
+}
